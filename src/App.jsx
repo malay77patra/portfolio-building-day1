@@ -51,7 +51,7 @@ export default function App() {
             <div className='heading'>PROJECTS</div>
             <p>Here are some of my recent projects highlighting expertise in web applications, automation software, and AI integration.</p>
           </Element>
-          <footer>made with ❤️ using ⚛️+⚡(react+vite)</footer>
+          <footer>made with ❤️ using (react+vite)</footer>
         </section>
       </div>
     </main>
