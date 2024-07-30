@@ -5,7 +5,6 @@ import Malay from './assets/malay.png'
 import './styles/App.css';
 
 export default function App() {
-
   return (
     <main>
       <div className='wrapper' id='wrapper'>
@@ -41,7 +40,7 @@ export default function App() {
             <div className='heading'>ABOUT</div>
             <p>I'm a <span className='h'>Python expert</span>. I build web apps and automation software using the <span className="h">MERN stack</span> & Python. I also integrate <span className="h">AI & GPT</span> like LLm or APIs into prebuilt softwarews, focusing on solving problems that businesses face. Over the past two years, I have been working as a freelancer, including a notable stint with Vino AI. I possess strong skills in mathematics and physics, which complement my technical expertise. I am actively seeking new opportunities to leverage my skills and help more businesses overcome their challenges.</p>
             <p>Get your issues solved now ✨</p>
-            <button className='go-btn'>LET'S GO</button>
+            <a className='go-btn' href='/logo.svg' target='blank'>RESUME</a>
           </Element>
           <Element name="experties">
             <div className='heading'>EXPERTIES</div>
@@ -49,10 +48,10 @@ export default function App() {
             <Progress />
           </Element>
           <Element name="projects">
-            <div className='heading'>ABOUT</div>
-            <p>Back in 2020, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I have had the privilege of building software for start-up, for Local Buinsesses, also helped multiple clients working as a Freelancer</p>
-            <p>My main focus these days is building products and leading projects for our clients at Upwork. In my free time I have also like to contribue Open-source projects and learning new skills.</p>
+            <div className='heading'>PROJECTS</div>
+            <p>Here are some of my recent projects highlighting expertise in web applications, automation software, and AI integration.</p>
           </Element>
+          <footer>made with ❤️ using ⚛️+⚡(react+vite)</footer>
         </section>
       </div>
     </main>

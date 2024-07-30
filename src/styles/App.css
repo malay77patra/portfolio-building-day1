@@ -147,7 +147,7 @@ main {
   padding-left: 50dvw;
 }
 
-.content a {
+.content p a {
   color: var(--accent);
 }
 
@@ -169,7 +169,6 @@ main {
 }
 
 .go-btn {
-
   display: inline-block;
   outline: none;
   cursor: pointer;
@@ -187,6 +186,14 @@ main {
   color: var(--color);
   box-shadow: inset 0 0 0 2px var(--color);
   background-color: transparent;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .go-btn:hover {
