@@ -53,7 +53,6 @@ export default function App() {
             <p>Back in 2020, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I have had the privilege of building software for start-up, for Local Buinsesses, also helped multiple clients working as a Freelancer</p>
             <p>My main focus these days is building products and leading projects for our clients at Upwork. In my free time I have also like to contribue Open-source projects and learning new skills.</p>
           </Element>
-          <div style={{ height: '100vh' }}>foot</div>
         </section>
       </div>
     </main>

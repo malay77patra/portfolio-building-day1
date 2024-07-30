@@ -238,4 +238,7 @@ main {
     align-items: center;
     justify-content: center;
   }
+  .heading {
+    padding-top: 50px;
+  }
 }
