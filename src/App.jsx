@@ -37,6 +37,47 @@ export default function App() {
           </Element>
           <Element name="experience">
             <div className='heading'>EXPERIENCE</div>
+            <div className='exp-group'>
+
+              <div className='card'>
+                <div className="time">2021 — Present</div>
+                <div className="desc">
+                  <h3>Web & AI Development Freelancer, Fiverr</h3>
+                  <p>Develop and maintain web applications and automation software using the MERN stack and Python. Collaborate with clients, designers, and developers to deliver scalable solutions. Specialize in integrating GPT and AI models to enhance functionality.</p>
+                  <div className="tags">
+                    <span className="tag">Python</span>
+                    <span className="tag">JavaScript</span>
+                    <span className="tag">MERN</span>
+                    <span className="tag">GPT</span>
+                  </div>
+                </div>
+              </div>
+              <div className='card'>
+                <div className="time">2023 — Present</div>
+                <div className="desc">
+                  <h3>Tech Content Writer, Gitconnect</h3>
+                  <p>I write about new tech topics on GitConnect, Medium. One of my articles, <span className="h">"How to Run a Python Script 24/7"</span> successfully achieved the #1 Google search rank.</p>
+                  <div className="tags">
+                    <span className="tag">Python</span>
+                    <span className="tag">Medium</span>
+                    <span className="tag">Content Writing</span>
+                  </div>
+                </div>
+              </div>
+              <div className='card'>
+                <div className="time">2022 — 2022</div>
+                <div className="desc">
+                  <h3>AI Integration Engineer, Vino.ai</h3>
+                  <p>Built an automated document generator leveraging GPT-4 API. Received a 5-star review from the client for exceptional performance and results.</p>
+                  <div className="tags">
+                    <span className="tag">Python</span>
+                    <span className="tag">GPT-3/4-o</span>
+                    <span className="tag">LLM</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </Element>
           <Element name="projects">
             <div className='heading'>PROJECTS</div>
