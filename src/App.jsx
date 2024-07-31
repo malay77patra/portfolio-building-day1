@@ -1,4 +1,5 @@
-import { Link, Element } from 'react-scroll';
+import { Element } from 'react-scroll';
+import Navigator from './components/Nagigator';
 import SocialMedia from './components/SocialMedia';
 import Progress from './components/Progress';
 import Malay from './assets/malay.png'
@@ -18,20 +19,7 @@ export default function App() {
               </span>
             </div>
             <p className='desc'>Seamlessly integrate web & AI for efficient business solutions</p>
-            <div className='navigator'>
-              <Link activeClass="active" to="about" spy={true} smooth={true} duration={250} containerId="wrapper">
-                <span className='bar'></span>
-                ABOUT
-              </Link>
-              <Link activeClass="active" to="experties" spy={true} smooth={true} duration={250} containerId="wrapper">
-                <span className='bar'></span>
-                EXPERTIES
-              </Link>
-              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={250} containerId="wrapper">
-                <span className='bar'></span>
-                PROJECTS
-              </Link>
-            </div>
+            <Navigator />
             <SocialMedia />
           </div>
         </section>
