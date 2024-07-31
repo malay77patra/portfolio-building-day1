@@ -166,7 +166,7 @@ main {
 }
 
 .h {
-  color: var(--accent);
+  color: var(--primary);
   font-weight: 500;
 }
 
@@ -196,6 +196,7 @@ footer {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 20px;
+  color: #64748b;
 }
 
 .go-btn:hover {

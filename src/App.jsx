@@ -18,7 +18,7 @@ export default function App() {
                 <h4>Full Stack Web Developer</h4>
               </span>
             </div>
-            <p className='desc'>Seamlessly integrate web & AI for efficient business solutions</p>
+            <p className='desc'>Seamlessly integrate web & AI for efficient business solutions.</p>
             <Navigator />
             <SocialMedia />
           </div>
@@ -34,6 +34,9 @@ export default function App() {
             <div className='heading'>EXPERTIES</div>
             <p>My focus is on building software that simplifies and grows your business. Whether you need a landing page, a complex dashboard, or task automation, I am here to help. My skills are:</p>
             <Progress />
+          </Element>
+          <Element name="experience">
+            <div className='heading'>EXPERIENCE</div>
           </Element>
           <Element name="projects">
             <div className='heading'>PROJECTS</div>
