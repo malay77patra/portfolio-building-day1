@@ -316,4 +316,8 @@ footer {
   .heading {
     padding-top: 50px;
   }
+
+  .card {
+    flex-direction: column;
+  }
 }
