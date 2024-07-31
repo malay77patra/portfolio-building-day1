@@ -2,7 +2,8 @@ import { Element } from 'react-scroll';
 import Navigator from './components/Nagigator';
 import SocialMedia from './components/SocialMedia';
 import Progress from './components/Progress';
-import Malay from './assets/malay.png'
+import malayPng from './assets/malay.png'
+import flameidePng from './assets/flameide.png'
 import './styles/App.css';
 
 export default function App() {
@@ -12,7 +13,7 @@ export default function App() {
         <section className="profile-sec">
           <div>
             <div className='profile'>
-              <img src={Malay} alt='Profile Picture' className='malay-img' />
+              <img src={malayPng} alt='Profile Picture' className='malay-img' />
               <span>
                 <h1>Malay Patra</h1>
                 <h4>Full Stack Web Developer</h4>
@@ -28,7 +29,7 @@ export default function App() {
             <div className='heading'>ABOUT</div>
             <p>I'm a <span className='h'>Python expert</span>. I build web apps and automation software using the <span className="h">MERN stack</span> & Python. I also integrate <span className="h">AI & GPT</span> like LLm or APIs into prebuilt softwarews, focusing on solving problems that businesses face. Over the past two years, I have been working as a freelancer, including a notable stint with Vino AI. I possess strong skills in mathematics and physics, which complement my technical expertise. I am actively seeking new opportunities to leverage my skills and help more businesses overcome their challenges.</p>
             <p>Get your issues solved now ✨</p>
-            <a className='go-btn' href='/logo.svg' target='blank'>RESUME</a>
+            <a className='go-btn' href='https://drive.google.com/file/d/1SeHWLv_f2UishZONI587RHgelHmx3QQU/view?usp=sharing' target='blank'>RESUME</a>
           </Element>
           <Element name="experties">
             <div className='heading'>EXPERTIES</div>
@@ -37,8 +38,7 @@ export default function App() {
           </Element>
           <Element name="experience">
             <div className='heading'>EXPERIENCE</div>
-            <div className='exp-group'>
-
+            <div className='card-group'>
               <div className='card'>
                 <div className="time">2021 — Present</div>
                 <div className="desc">
@@ -82,10 +82,26 @@ export default function App() {
           <Element name="projects">
             <div className='heading'>PROJECTS</div>
             <p>Here are some of my recent projects highlighting expertise in web applications, automation software, and AI integration.</p>
+            <div className="card-group">
+              <a href="https://flameide.vercel.app/">
+                <div className='card'>
+                  <img src={flameidePng} className='thmb' />
+                  <div className="desc">
+                    <h3>Flameide</h3>
+                    <p>A lightweight browser-based IDE for competitive programming. No installation required!</p>
+                    <div className="tags">
+                      <span className="tag">Html</span>
+                      <span className="tag">Css</span>
+                      <span className="tag">JavaScript</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
           </Element>
           <footer>made with ❤️ using (react+vite)</footer>
         </section>
       </div>
-    </main>
+    </main >
   );
 }
